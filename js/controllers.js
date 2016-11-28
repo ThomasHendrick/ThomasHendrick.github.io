@@ -1,4 +1,4 @@
-﻿/**
+/**
  *
  * Responsive website using AngularJS
  * http://www.script-tutorials.com/responsive-website-using-angularjs/

@@ -1,4 +1,4 @@
-﻿/**
+/**
  *
  * Responsive website using AngularJS
  * http://www.script-tutorials.com/responsive-website-using-angularjs/
@@ -52,8 +52,8 @@ angular.module('mileHighChauffeur', ['ngRoute', 'ngAnimate', 'ui.bootstrap'])
     $scope.$on("$routeChangeSuccess", function (scope, next, current) {
         $scope.part = $route.current.activetab;
         $window.scrollTo(0, 0);
-        $scope.carouselFlag = ($route.current.loadedTemplateUrl === 'pages/index.html');
-        if($scope.carouselFlag) {
+        $scope.homePageFlag = ($route.current.loadedTemplateUrl === 'pages/index.html');
+        if($scope.homePageFlag) {
             $scope.contactName = '';
             $scope.email = '';
             $scope.message = '';
